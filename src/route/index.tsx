@@ -1,5 +1,5 @@
 import React, { Suspense } from 'react';
-import Button from '../components/buttons';
+import Index from '../components/index';
 import { HashRouter as Router, Route } from 'react-router-dom'
 
 interface IRouteComponentProps {
@@ -8,7 +8,7 @@ const RouteComponent: React.FunctionComponent<IRouteComponentProps> = (props) =>
     return (
         <Router>
             <Suspense>
-                <Route path='/' render={() => <Button></Button>}></Route>
+                <Route path='/' render={() => <Index></Index>}></Route>
             </Suspense>
         </Router>
     );
