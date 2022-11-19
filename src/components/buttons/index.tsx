@@ -6,7 +6,7 @@ interface IButtonComponentProps {
 
 const ButtonComponent: React.FunctionComponent<IButtonComponentProps> = (props: any) => {
     console.log(props, 'props')
-    // const { dispatch, countData } = props
+    // const { dispatch, countData } = props\
     // console.log(countData, 'dispatch')
     return (
         <>
