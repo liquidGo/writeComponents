@@ -1,5 +1,5 @@
 import React from 'react';
-import { connect } from 'react-redux'
+// import { connect } from 'react-redux'
 import classNames from 'classnames';
 
 export enum ButtonSize {
@@ -74,10 +74,11 @@ ButtonComponent.defaultProps = {
     btnType: ButtonType.Defautl,
 
 }
-const mapStateToProps = (state: any) => {
-    return {
-        countData: state.counter
-    }
-}
+// const mapStateToProps = (state: any) => {
+//     return {
+//         countData: state.counter
+//     }
+// }
 
-export default connect(mapStateToProps)(ButtonComponent);
+// export default connect(mapStateToProps)(ButtonComponent);
+export default ButtonComponent
